@@ -1,0 +1,91 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfplan
+*.plan
+crash.log
+crash.*.log
+
+# Terraform variables
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Keep Terragrunt shared config
+!**/tfvars.hcl
+
+# Terragrunt
+.ter# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfplan
+*.plan
+crash.log
+crash.*.log
+
+# Terraform variables
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Keep Terragrunt shared config
+!**/tfvars.hcl
+
+# Terragrunt
+.terragrunt-cache/
+.terragrunt-stack/
+terragrunt-debug.tfvars
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials
+credentials.*
+.aws/
+.gcp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.logragrunt-cache/
+.terragrunt-stack/
+terragrunt-debug.tfvars
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials
+credentials.*
+.aws/
+.gcp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
